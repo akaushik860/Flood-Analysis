@@ -61,7 +61,7 @@ def model(place,river):
     data = pd.read_csv("F:\\Study\\Minor_Project-main\\Minor_Project-main\\States\\"+place+".csv")
     isAllModelsSame = True
     flood = []
-    limit = 2700
+    limit = 2600
     if river == "YES":
         limit = 1400
     x1=list(data["ANNUAL"])
