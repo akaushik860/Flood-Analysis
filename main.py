@@ -59,7 +59,7 @@ def model(place,river):
     # os.chdir(r'C:\Users\ajayp\Documents\Flood-Prediction-Model-master') # Path of our Project Folder
     # os.getcwd()
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    data = pd.read_csv(dir_path+"\\States\\"+place+".csv")
+    data = pd.read_csv(dir_path+"/States/"+place+".csv")
     isAllModelsSame = True
     flood = []
     limit = 2600
